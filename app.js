@@ -110,5 +110,3 @@ function handleSave(e) {
 }
 
 document.getElementById('save-form').addEventListener('submit', handleSave)
-
-
