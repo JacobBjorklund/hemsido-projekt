@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/alberto-restifo-cFplR9ZGnAk-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    padding: 4rem;
+    margin: 0;
+}
+
+.full {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#divside {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.clockside {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+h1{
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(rgb(0, 0, 50), rgb(2, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon {
+    background: rgba(0, 0, 0, 0.726);
+    width: 65px;
+    height: 65px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.image {
+} 
+
+.iconify {
+    width: 60%;
+    height: 60%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.autist {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#hide {
+    display: none;
+}
+
+#save2 {
+    display: none;
+}
