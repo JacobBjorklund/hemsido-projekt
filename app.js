@@ -81,7 +81,7 @@ function handleSave(e) {
                 })
 
                 localStorage.setItem('bookmarks', JSON.stringify(storage))
-                
+
                 // Create elements
                 const li = document.createElement('li')
                 li.innerHTML = `
@@ -92,9 +92,6 @@ function handleSave(e) {
                     <h3>${title.substring(0, 10)}</h3>
                 </a>
             `
-      
-
-              
 
                 li.classList.add('box')
 
@@ -102,7 +99,7 @@ function handleSave(e) {
 
                 // Clearar input
                 document.getElementById('link').value = ''
-                
+
             })
     } catch (error) {
         console.log('sitt ner');
